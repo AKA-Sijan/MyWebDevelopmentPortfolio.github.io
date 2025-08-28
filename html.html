@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .card {
+            border: 1px solid #060606;
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 200px;
+            margin-bottom: 20px;
+            background-color: rgb(188, 188, 192);
+        }
+        .profile-img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #000;
+            padding: 8px;
+        }
+        form {
+            max-width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        form input, form button {
+            width: 90%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <center>
+
+    <header>
+        <h1>HTML Example Page</h1>
+        <p>This page demonstrates HTML elements.</p>
+    </header>
+
+    <div class="card">
+        <img src="profile.png" alt="Profile" class="profile-img">
+        <h2>Sijan kunwar</h2>
+        <p>Web Developer</p>
+    </div>
+     </center>
+
+    <section>
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+        </ul>
+        <h2>Top 3 Languages</h2>
+        <ol>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Project Table</h2>
+        <table>
+            <tr>
+                <th>Project</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>To-Do App</td>
+                <td>In Progress</td>
+            </tr>
+        </table>
+    </section>
+   
+
+    <section>
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+     <center>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+   </center>
+</body>
+</html>
